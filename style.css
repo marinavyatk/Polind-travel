@@ -374,7 +374,7 @@ a:hover {
 
 .fourth-block {
     height: 642px;
-    background-image: url(/img/footer.png);
+    background-image: url(./img/footer.png);
     background-position: right;
     display: flex;
     flex-direction: column;
