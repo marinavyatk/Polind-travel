@@ -1,207 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Polind</title>
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="/img/favicon/apple-touch-icon.png"
+    <link rel="apple-touch-icon"
+          sizes="180x180"
+          href="./img/favicon/apple-touch-icon.png"
     />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="/img/favicon/favicon-32x32.png"
+    <link rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="./img/favicon/favicon-32x32.png"
     />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="/img/favicon/favicon-16x16.png"
+    <link rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="./img/favicon/favicon-16x16.png"
     />
-    <link rel="manifest" href="/img/favicon/site.webmanifest" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="all" id="all">
-      <header class="first-block">
+    <link rel="manifest" href="./img/favicon/site.webmanifest"/>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div class="all" id="all">
+    <section class="first-block">
         <div class="background">
-          <img class="background-img" src="/img/main.png" />
+            <img class="background-img" src="./img/main.png" alt=""/>
         </div>
-        <div class="grid-container">
-          <div class="logo">
-            <img src="/img/Logo.png" alt="Polind logo" />
-            <p>Polind</p>
-          </div>
-          <ul class="navbar">
-            <li><a href="#">Guide</a></li>
-            <li><a href="#">Journey</a></li>
-            <li><a href="#">Hotels</a></li>
-            <li><a href="#">Travelers</a></li>
-            <li>
-              <a href="#second-block"
-                ><img src="/img/Search.png" alt="Search"
-              /></a>
-            </li>
-          </ul>
-        </div>
+        <header class="grid-container">
+            <div class="logo">
+                <img src="./img/Logo.png" alt="Polind logo"/>
+                <p>Polind</p>
+            </div>
+            <ul class="navbar">
+                <li><a href="#">Guide</a></li>
+                <li><a href="#">Journey</a></li>
+                <li><a href="#">Hotels</a></li>
+                <li><a href="#">Travelers</a></li>
+                <li>
+                    <a href="#second-block">
+                        <img src="./img/Search.png" alt="Search"/>
+                    </a>
+                </li>
+            </ul>
+        </header>
         <div class="center">
-          <h1>
-            Fall in love <br /><span style="color: #ed6950">with Poland</span>
-          </h1>
-          <p>Best way to find your perfect place in Poland</p>
-          <a href="#second-block">SEARCH YOUR PLACE</a>
+            <h1>
+                Fall in love <br/><span style="color: #ed6950">with Poland</span>
+            </h1>
+            <p>Best way to find your perfect place in Poland</p>
+            <a href="#second-block">SEARCH YOUR PLACE</a>
         </div>
         <p class="popular">Popular places to discover</p>
         <div class="cards">
-          <img
-            class="card hide"
-            src="/img/Photo dark.png"
-            alt="Place in Poland"
-          />
-          <div class="card">
-            <img src="/img/Zakopane.png" alt="Zakopane" />
-            <div class="description">
-              <h2>Zakopane</h2>
-              <p>Małopolskie</p>
+            <img class="card hide"
+                 src="./img/Photo dark.png"
+                 alt="Place in Poland"
+            />
+            <div class="card">
+                <img src="./img/Zakopane.png" alt="Zakopane"/>
+                <div class="description">
+                    <h2>Zakopane</h2>
+                    <p>Małopolskie</p>
+                </div>
             </div>
-          </div>
-          <div class="main-card">
-            <img src="/img/Sandomierz.png" alt="Sandomierz" />
-            <div class="main-card-description">
-              <h2>Sandomierz</h2>
-              <p>Swietokrzyskie</p>
-              <a href="#">VIEW OFFERS</a>
+            <div class="main-card">
+                <img src="./img/Sandomierz.png" alt="Sandomierz"/>
+                <div class="main-card-description">
+                    <h2>Sandomierz</h2>
+                    <p>Swietokrzyskie</p>
+                    <a href="#">VIEW OFFERS</a>
+                </div>
             </div>
-          </div>
-          <div class="card">
-            <img src="/img/Sopot.png" alt="Sopot" />
-            <div class="description">
-              <h2>Sopot</h2>
-              <p>Pomorskie</p>
+            <div class="card">
+                <img src="./img/Sopot.png" alt="Sopot"/>
+                <div class="description">
+                    <h2>Sopot</h2>
+                    <p>Pomorskie</p>
+                </div>
             </div>
-          </div>
-          <img
-            class="card hide"
-            src="/img/Photo dark2.png"
-            alt="Place in Poland"
-          />
+            <img class="card hide"
+                 src="./img/Photo dark2.png"
+                 alt="Place in Poland"
+            />
         </div>
-      </header>
-      <section class="second-block" id="second-block">
+    </section>
+    <section class="second-block" id="second-block">
         <h2>Where you want to go?</h2>
         <div class="search-request">
-          <input type="text" placeholder="Search place" />
-          <img src="/img/Search.png" alt="Search" />
-          <div class="button-block">
-            <div class="left-buttons">
-              <a href="#" style="background-color: #ffc74a">Journey</a>
-              <a href="#">Travelers</a>
-              <a href="#">Guide</a>
+            <input type="text" placeholder="Search place"/>
+            <img src="./img/Search.png" alt="Search"/>
+            <div class="button-block">
+                <div class="left-buttons">
+                    <a href="#" style="background-color: #ffc74a">Journey</a>
+                    <a href="#">Travelers</a>
+                    <a href="#">Guide</a>
+                </div>
+                <div class="right-buttons">
+                    <a href="#">Mazury</a>
+                    <a href="#">Cracow</a>
+                    <a href="#">Zakopane</a>
+                </div>
             </div>
-            <div class="right-buttons">
-              <a href="#">Mazury</a>
-              <a href="#">Cracow</a>
-              <a href="#">Zakopane</a>
-            </div>
-          </div>
         </div>
         <div class="offer-cards">
-          <div class="offer">
-            <img src="/img/card1.png" alt="Poznan" />
-            <h3>Poznan</h3>
-            <p>Wielkopolskie</p>
-            <a href="#">VIEW OFFERS</a>
-          </div>
-          <div class="offer">
-            <img src="/img/card2.png" alt="Warsaw" />
-            <h3>Warsaw</h3>
-            <p>Mazowieckie</p>
-            <a href="#" style="background-color: #ffc74a; color: #b98000"
-              >VIEW OFFERS</a
-            >
-          </div>
-          <div class="offer">
-            <img src="/img/card3.png" alt="Wroclaw" />
-            <h3>Wroclaw</h3>
-            <p>Dolnoslaskie</p>
-            <a href="#">VIEW OFFERS</a>
-          </div>
-          <div class="offer">
-            <img src="/img/card4.png" alt="Karpacz" />
-            <h3>Karpacz</h3>
-            <p>Dolnoslaskie</p>
-            <a href="#">VIEW OFFERS</a>
-          </div>
-          <div class="offer">
-            <img src="/img/card5.png" alt="Dolina Olczyska" />
-            <h3>Dolina Olczyska</h3>
-            <p>Malopolskie</p>
-            <a href="#">VIEW OFFERS</a>
-          </div>
-          <div class="offer">
-            <img src="/img/card6.png" alt="Kozy" />
-            <h3>Kozy</h3>
-            <p>Slaskie</p>
-            <a href="#">VIEW OFFERS</a>
-          </div>
+            <div class="offer">
+                <img src="./img/card1.png" alt="Poznan"/>
+                <h3>Poznan</h3>
+                <p>Wielkopolskie</p>
+                <a href="#">VIEW OFFERS</a>
+            </div>
+            <div class="offer">
+                <img src="./img/card2.png" alt="Warsaw"/>
+                <h3>Warsaw</h3>
+                <p>Mazowieckie</p>
+                <a href="#" style="background-color: #ffc74a; color: #b98000"
+                >VIEW OFFERS</a
+                >
+            </div>
+            <div class="offer">
+                <img src="./img/card3.png" alt="Wroclaw"/>
+                <h3>Wroclaw</h3>
+                <p>Dolnoslaskie</p>
+                <a href="#">VIEW OFFERS</a>
+            </div>
+            <div class="offer">
+                <img src="./img/card4.png" alt="Karpacz"/>
+                <h3>Karpacz</h3>
+                <p>Dolnoslaskie</p>
+                <a href="#">VIEW OFFERS</a>
+            </div>
+            <div class="offer">
+                <img src="./img/card5.png" alt="Dolina Olczyska"/>
+                <h3>Dolina Olczyska</h3>
+                <p>Malopolskie</p>
+                <a href="#">VIEW OFFERS</a>
+            </div>
+            <div class="offer">
+                <img src="./img/card6.png" alt="Kozy"/>
+                <h3>Kozy</h3>
+                <p>Slaskie</p>
+                <a href="#">VIEW OFFERS</a>
+            </div>
         </div>
-      </section>
-      <section class="third-block">
+    </section>
+    <section class="third-block">
         <h3 class="text">
-          SAN <br />
-          <span class="text-second">DOM</span> <br />
-          <span class="text-third">IERZ</span>
+            SAN <br/>
+            <span class="text-second">DOM</span> <br/>
+            <span class="text-third">IERZ</span>
         </h3>
         <div class="info">
-          <p class="explore">Explore city</p>
-          <div class="history">
-            <div class="sandomierz">
-              <h3>Sandomierz</h3>
-              <p>
-                Sandomierz is one of the oldest and historically most
-                significant cities in Poland. Archeological finds around the
-                city indicate that humans have inhabited the area since
-                neolithic times. The city came into existence in the early
-                Middle Ages, taking advantage of an excellent location at the
-                junction of Vistula and San rivers, and on the path of important
-                trade routes.
-              </p>
-              <p>
-                The first known historical mention of the city comes from the
-                early 12th-century, when the chronicler Gallus Anonymus ranked
-                it together with Kraków and Wrocław as one of the main cities of
-                Poland. The testament (ca 1115-1118) of Bolesław III Wrymouth,
-                in which he divided Poland among his sons, designated Sandomierz
-                as the capital of one of the resulting principalities, the Duchy
-                of Sandomierz.
-              </p>
-              <a href="#">CHECK OFFERS</a>
+            <p class="explore">Explore city</p>
+            <div class="history">
+                <div class="sandomierz">
+                    <h3>Sandomierz</h3>
+                    <p>
+                        Sandomierz is one of the oldest and historically most
+                        significant cities in Poland. Archeological finds around the
+                        city indicate that humans have inhabited the area since
+                        neolithic times. The city came into existence in the early
+                        Middle Ages, taking advantage of an excellent location at the
+                        junction of Vistula and San rivers, and on the path of important
+                        trade routes.
+                    </p>
+                    <p>
+                        The first known historical mention of the city comes from the
+                        early 12th-century, when the chronicler Gallus Anonymus ranked
+                        it together with Kraków and Wrocław as one of the main cities of
+                        Poland. The testament (ca 1115-1118) of Bolesław III Wrymouth,
+                        in which he divided Poland among his sons, designated Sandomierz
+                        as the capital of one of the resulting principalities, the Duchy
+                        of Sandomierz.
+                    </p>
+                    <a href="#">CHECK OFFERS</a>
+                </div>
+                <div class="sandomierz-img">
+                    <img src="./img/Photo.png" alt=""/>
+                    <div class="square"></div>
+                </div>
             </div>
-            <div class="sandomierz-img">
-              <img src="/img/Photo.png" alt="" />
-
-              <div class="square"></div>
-            </div>
-          </div>
         </div>
-      </section>
-      <section class="fourth-block">
+    </section>
+    <section class="fourth-block">
         <h3>Enjoy your journey</h3>
         <a href="#" class="sign-up">SIGN UP</a>
-        <p>
-          You can also sign up on our
-          <a href="#" class="newsletter">newsletter</a>
+        <p>You can also sign up on our
+            <a href="#" class="newsletter">newsletter</a>
         </p>
-      </section>
-      <footer class="fifth-block">
+    </section>
+    <footer class="fifth-block">
         <h3 class="text">POLIND</h3>
-        <img src="/img/Logo.png" alt="Polind logo" />
+        <img src="./img/Logo.png" alt="Polind logo"/>
         <p>All rights reserved by symu.co</p>
-      </footer>
-    </div>
-  </body>
+    </footer>
+</div>
+</body>
 </html>
